@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coyolaw</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Coyolaw</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <input type="text" class="search-bar" placeholder="Search...">
+    </header>
+    <main class="main-content">
+        <section id="home" class="grid-section">
+            <h2>Explore Legal Resources</h2>
+            <div class="grid-container">
+                <div class="card">Legal Tip 1</div>
+                <div class="card">Legal Tip 2</div>
+                <div class="card">Moot Resource</div>
+                <div class="card">Recent Blog</div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Coyolaw is dedicated to providing accessible legal resources, tips, and guidance for law students and professionals.</p>
+        </section>
+        <section id="resources">
+            <h2>Resources</h2>
+            <p>Discover a range of guides, case studies, and tips to excel in your legal journey.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>© 2024 Coyolaw. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
